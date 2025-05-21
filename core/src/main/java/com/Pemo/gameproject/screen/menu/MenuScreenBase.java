@@ -39,7 +39,7 @@ public abstract class MenuScreenBase extends ScreenAdapter {
 
         Music backgroundMusic = assetManager.get(AssetDescriptors.BACKGROUND_MUSIC);
         backgroundMusic.setLooping(true);
-        backgroundMusic.setVolume(0.5f); // Volume from 0.0 to 1.0
+        backgroundMusic.setVolume(1f); // Volume from 0.0 to 1.0
         backgroundMusic.play();
     }
 
